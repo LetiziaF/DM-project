@@ -18,7 +18,7 @@ genseq <- function(sq){
   sq
 }
 
-#Importazione dei dataset
+#Dataset
 setwd("C:/Users/Francesco/Desktop/Progetto decision model")
 cities <- read.csv("santa_cities.csv")
 #Percorso ottenuto in precedenza attraverso nel codice "quarto approccio"
