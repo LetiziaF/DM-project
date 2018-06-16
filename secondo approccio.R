@@ -44,7 +44,7 @@ solution <- merge(solution,centroidi, by = "ncluster")
 solution <- arrange(solution,pos)
 sol <- solution[,-c(3,4)]
 
-#1.cerco primo centroide e punto di inizio nel primo centroide
+#1.cerco primo centroide e punto di inizio nel primo cluster
 centroidi$flag <- ifelse(centroidi$ncluster == "36","red","black")
 plot(centroidi$x, centroidi$y, col = centroidi$flag)
 
@@ -93,7 +93,7 @@ for(i in sol$ncluster){
   conta <- conta + 1
 }
 
-#2.cerco primo centroide e punto di inizio primo centroide
+#2.cerco primo centroide e punto di inizio primo cluster
 centroidi2$flag <- ifelse(centroidi2$ncluster == "36","red","black")
 plot(centroidi2$x, centroidi2$y, col = centroidi2$flag)
 
