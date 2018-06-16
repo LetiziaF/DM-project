@@ -1,1 +1,3 @@
-# DM-project
+# DM-project: Traveling Santa Problem
+
+In questo elaborato è stata sviluppata una soluzione al Traveling Santa Problem, un problema di TSP a cui sono state aggiunte diverse costrizioni. Tale risultato è stato raggiunto, attraverso un approccio euristico, confrontando quattro diversi procedimenti basati sulla combinazione di varianti di due o più dei seguenti algoritmi: k-means, Genetic Algorithm, Nearest Neighbor e 2-opt. La soluzione proposta ha raggiunto un risultato, valutato attraverso il reciproco della lunghezza totale, pari a circa l'88\% del risultato ottimo riscontrabile in letteratura.
